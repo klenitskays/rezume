@@ -1,0 +1,106 @@
+.body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 5% 5% 5%;
+  border-style: solid;
+  border-width: 0.5px;
+  box-shadow: 0 0 1px 1px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 30%;
+  color: #ffffff;
+  background-color: #37363b;
+  /* flex-basis: 30%; */
+  padding: 3%;
+}
+.box11image {
+  padding: 3%;
+}
+.imm {
+  height: 200px;
+}
+.box111 {
+  font-size: 25px;
+  margin: 3%;
+  border-top: 1px solid #ccc;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+  /* margin: 2%; */
+  color: #000000;
+  /* flex-basis: 50%; */
+  background-color: #fff;
+  /* /align-items: stretch; */
+}
+.box21h {
+  display: flex;
+  margin: 2%;
+}
+.box211h {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 55px;
+  margin: 10%;
+}
+.box21 {
+  display: flex;
+}
+.box21a {
+  margin: 2%;
+}
+.box211a {
+  background-color: #37363b;
+  color: #fff;
+  padding: 1%;
+}
+.box212 {
+  width: 50%;
+  margin: 2%;
+}
+/* Убедитесь, что заполнение ведет себя так, как ожидалось */
+/* * {
+  box-sizing: border-box;
+} */
+
+/* Контейнер для слитков мастерства */
+.container {
+  width: 100%; /* Полная ширина */
+  background-color: #37363b; /* Серый фон */
+  margin: 2%;
+}
+
+.skills {
+  text-align: right; /* Выравнивание текста по правому краю */
+  padding-top: 1px; /* Добавить верхний отступ */
+  padding-bottom: 1px; /* Добавить нижний отступ */
+  color: white; /* Белый цвет текста */
+  margin: 2%;
+}
+
+.html {
+  width: 90%;
+  background-color: #000000;
+} /* Зеленый */
+.css {
+  width: 80%;
+  background-color: #000000;
+} /* Синий */
+.js {
+  width: 65%;
+  background-color: #000000;
+} /* Красный */
+.php {
+  width: 60%;
+  background-color: #000000;
+} /* Темно-серый */
