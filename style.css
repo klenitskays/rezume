@@ -1,6 +1,12 @@
 .body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+a,
+u {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
 .box {
   display: flex;
   flex-direction: row;
@@ -36,7 +42,7 @@
 .box2 {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   width: 60%;
   /* margin: 2%; */
   color: #000000;
@@ -46,12 +52,16 @@
 }
 .box21h {
   display: flex;
+  flex-direction: column;
   margin: 2%;
 }
 .box211h {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 55px;
-  margin: 10%;
+  margin: 5%;
+}
+.box112 {
+  margin: 4%;
 }
 .box21 {
   display: flex;
@@ -68,12 +78,41 @@
   width: 50%;
   margin: 2%;
 }
-/* Убедитесь, что заполнение ведет себя так, как ожидалось */
-/* * {
-  box-sizing: border-box;
-} */
-
-/* Контейнер для слитков мастерства */
+.box212m {
+  width: 50%;
+  margin: 2%;
+}
+.box212p {
+  width: 50%;
+  margin: 2%;
+}
+.box212h {
+  margin: 0 5% 5% 5%;
+}
+.box21proba {
+  display: flex;
+  width: 50%;
+  margin: 2%;
+  position: relative;
+}
+.a123 {
+  text-decoration: none;
+}
+.box21hproba {
+  display: flex;
+}
+.a1234 {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  /* transition: 0.2s ease-in-out; */
+  visibility: hidden;
+}
+.box21hobbies {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
 .container {
   width: 100%; /* Полная ширина */
   background-color: #37363b; /* Серый фон */
@@ -87,20 +126,29 @@
   color: white; /* Белый цвет текста */
   margin: 2%;
 }
-
+.popup {
+  /* background: url(smile.png); */
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
 .html {
-  width: 90%;
+  width: 80%;
+  height: 2px;
   background-color: #000000;
 } /* Зеленый */
 .css {
-  width: 80%;
+  width: 70%;
+  height: 2px;
   background-color: #000000;
 } /* Синий */
 .js {
-  width: 65%;
+  width: 50%;
+  height: 2px;
   background-color: #000000;
 } /* Красный */
 .php {
-  width: 60%;
+  width: 30%;
+  height: 2px;
   background-color: #000000;
 } /* Темно-серый */
