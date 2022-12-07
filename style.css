@@ -32,7 +32,7 @@ u {
   padding: 3%;
 }
 .imm {
-  width: 50%;
+  width: 100%;
 }
 .box111 {
   font-size: 25px;
@@ -49,6 +49,7 @@ u {
   /* flex-basis: 50%; */
   background-color: #fff;
   /* /align-items: stretch; */
+  font-size: 110%;
 }
 .box21h {
   display: flex;
@@ -57,7 +58,7 @@ u {
 }
 .box211h {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 400%;
+  font-size: 200%;
   margin: 5%;
 }
 .box112 {
@@ -72,7 +73,8 @@ u {
 .box211a {
   background-color: #37363b;
   color: #fff;
-  padding: 1%;
+  padding: 2%;
+  margin: 1%;
 }
 .box212 {
   width: 50%;
@@ -102,7 +104,7 @@ u {
   display: flex;
 }
 .box2122 {
-  width: 25%;
+  /*   width: 25%; */
   margin: 2%;
 }
 .a1234 {
@@ -120,7 +122,7 @@ u {
 .container {
   width: 100%; /* Полная ширина */
   background-color: #37363b; /* Серый фон */
-  margin: 2%;
+  margin: 10%;
 }
 
 .skills {
@@ -130,8 +132,10 @@ u {
   color: white; /* Белый цвет текста */
   margin: 2%;
 }
+.box112 {
+  font-size: 100%;
+}
 .popup {
-  /* background: url(smile.png); */
   position: absolute;
   width: 30px;
   height: 30px;
