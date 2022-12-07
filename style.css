@@ -32,7 +32,7 @@ u {
   padding: 3%;
 }
 .imm {
-  height: 200px;
+  width: 50%;
 }
 .box111 {
   font-size: 25px;
@@ -57,7 +57,7 @@ u {
 }
 .box211h {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 55px;
+  font-size: 400%;
   margin: 5%;
 }
 .box112 {
@@ -101,6 +101,10 @@ u {
 .box21hproba {
   display: flex;
 }
+.box2122 {
+  width: 25%;
+  margin: 2%;
+}
 .a1234 {
   position: absolute;
   opacity: 0;
@@ -111,7 +115,7 @@ u {
 .box21hobbies {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .container {
   width: 100%; /* Полная ширина */
